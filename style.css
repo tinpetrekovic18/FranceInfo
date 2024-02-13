@@ -1,0 +1,211 @@
+body{
+    background-color:white;
+    color:black;
+    margin:0 auto;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:100%;
+    z-index: 0;
+}
+
+.franceinfo{
+    font-size: 7vh;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 5%;
+    display: flex; 
+}
+.dvot{
+    color:#f5f51d;
+    text-align: left;
+    font-family: Varela;
+}
+nav{
+    align-items: center;
+    display:flex;
+    width:100%;
+    background-color: white;
+    height:20%;
+    align-content: space-between;
+    flex-direction: row;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top:2vh;
+    padding-bottom:2vh;
+    margin-top:-8vh;
+}
+nav>a>div{
+    font-size: 3vh;
+    color:black;
+    float:left;
+    font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+transition-duration: 1s;
+transition-timing-function: linear;
+}
+nav>a>div:hover{
+    color:#f5f51d;
+    
+}
+nav>a{
+    margin:0 auto;
+text-decoration: none;
+}
+footer{
+    position:bottom;
+    bottom: 0;
+    width: 100%;
+    margin: 3% 0 3% 0; 
+}
+.pod{
+    position:fixed;
+    width: 100%;
+    margin: 3% 0 0 0; 
+}
+.podnozje{
+    padding:1% 0 1% 0;
+   align-content: right;
+   padding-right: 5%;
+   text-align: right;
+   background-color: #f0f0f0;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.podnozje2{
+    padding:1% 0 1% 0;
+   align-content: center;
+   text-align: left;
+   padding-left:5%;
+   background-color: gray;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+}
+.box{
+    margin-top: 1vh;
+    border-top: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
+    margin-bottom: 1vh;
+}
+section{
+    align-items:center;
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    padding: 1% 5% 5% 5%;
+}
+
+.slika{
+    width:100%;
+    height: 30%;
+}
+article{
+    margin-right: 1.5%;
+    font-size:2.3vh;
+    text-align: left;
+}
+.naslov{
+    text-align: left;
+    padding-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4vh;
+}
+.gore{
+ width: 60%;
+ font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin:3% 0 0 0;
+}
+.dolee{
+    margin-left: 0%;
+width: 90%;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+color:gray;
+}
+.dolee>img{
+    width: 100%;
+}
+.dole{
+    
+width: 90%;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+color:gray;
+}
+.podnaslov{
+    color:black;
+    width: 60%;
+ font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+.sljika{
+width: 100%;
+margin:3% 0 3% 0;
+}
+.sljikah{
+    height:560px;
+    object-fit: cover;
+    object-position: 60% 30%;
+}
+form{
+    background-color:#f0f0f0;
+    font-size:x-large;
+    margin:5% 0 5% 0;
+    padding:3%;
+    width: 50%;
+    border:6px solid black;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+ }
+
+ input{
+    width: 70%;
+ }
+ textarea{
+    width:90%;
+ }
+ .form-item{
+    padding:2%;
+    margin:2%;
+    background-color: #c4bebe;
+    border: 1px groove black;
+ }
+ .form-field{
+    margin:2%;
+    width:90%;
+ }
+ .bojaPoruke{
+    color:red;
+ }
+ .form-field-label{
+    display: flex;
+    flex-direction: column;
+}   
+.form-field-input{
+    width:100%;
+}
+
+@media (max-width:768px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    article{
+        font-size: 5vh;
+    }
+    nav>a{
+        font-size:10%;
+    }
+    .gore{
+        width: 100%;
+    }
+}
+
